@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 
 app = Flask(__name__)
 
-api_key = os.getenv('API_KEY')
+api_key = os.getenv('eb1430c03bf03ba6704d5d129c485e2a')
 
 @app.route('/')
 def main():
